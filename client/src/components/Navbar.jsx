@@ -6,11 +6,11 @@ export const Navbar = () => {
     <Flex justify="center" >
       <Breadcrumb fontWeight="medium" fontSize="m" spacing="8">
         <BreadcrumbItem>
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </BreadcrumbItem>
-
+        
         <BreadcrumbItem isCurrentPage>
-          <Link to="/checkout">Checkout</Link>
+          <Link to="/registration">REGISTRATION</Link>
         </BreadcrumbItem>
       </Breadcrumb>
     </Flex>
